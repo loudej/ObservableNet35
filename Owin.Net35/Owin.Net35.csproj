@@ -8,7 +8,7 @@
     <ProjectGuid>{90109C17-E057-4ED3-9C6B-1B22535020EA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Owin</RootNamespace>
+    <RootNamespace>System</RootNamespace>
     <AssemblyName>Owin</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostNewAgeProcess", "HostNewAgeProcess\HostNewAgeProcess.csproj", "{6D99D6DD-B1E4-4AB8-830E-1942994893DF}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Owin.Net35", "Owin.Net35\Owin.Net35.csproj", "{90109C17-E057-4ED3-9C6B-1B22535020EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Owin.Net40", "Owin.Net35.Forwarded\Owin.Net40.csproj", "{A1986ED5-74DA-4C16-8680-F31A7FB8D381}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Owin.Net40", "Owin.Net40\Owin.Net40.csproj", "{A1986ED5-74DA-4C16-8680-F31A7FB8D381}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyOldSchoolMiddleware", "MyOldSchoolMiddleware\MyOldSchoolMiddleware.csproj", "{6CA7B7EB-E23E-42BF-861A-23CEC2414C22}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyNewAgeMiddleware", "MyNewAgeMiddleware\MyNewAgeMiddleware.csproj", "{32108CFD-40F4-4BB9-9255-D73DD12A4890}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostNewAgeProcess", "HostNewAgeProcess\HostNewAgeProcess.csproj", "{6D99D6DD-B1E4-4AB8-830E-1942994893DF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostOldSchoolProcess", "HostOldSchoolProcess\HostOldSchoolProcess.csproj", "{CA2DE15F-DE84-48D1-9964-27D21C72FCAB}"
 EndProject

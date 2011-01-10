@@ -47,7 +47,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Owin.Net35.Forwarded\Owin.Net40.csproj">
+    <ProjectReference Include="..\Owin.Net40\Owin.Net40.csproj">
       <Project>{A1986ED5-74DA-4C16-8680-F31A7FB8D381}</Project>
       <Name>Owin.Net40</Name>
     </ProjectReference>
