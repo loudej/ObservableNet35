@@ -8,28 +8,34 @@ when the 3.5 assembly is loaded in a 4.0 app domain.
 ## Projects
 
 Owin.Net35.csproj
+
 * Creates Owin.dll with a .NET 3.5 target framework
 * Contains System.IObservable<> and System.IObserver<> interfaces
 
 Owin.Net40.csproj
+
 * Creates Owin.dll with a .NET 4.0 target framework
 * Forwards System.IObservable<> and System.IObserver<> interfaces
 
 MyOldSchoolMiddleware
+
 * Targets .NET 3.5 framework
 * References Owin.dll from Owin.Net35.csproj
 
 MyNewAgeMiddleware
+
 * Targets .NET 4.0 framework
 * Does not reference Owin.dll
 
 HostOldSchoolProcess
+
 * Targets .NET 3.5 framework
 * References Owin.dll from Owin.Net35.csproj
 * Loads and uses MyOldSchoolMiddleware
 * Typesystem binds all System.IObservable<> to Owin.dll
 
 HostNewAgeProcess
+
 * Targets .NET 4.0 framework
 * References Owin.dll from Owin.Net40.csproj
 * Loads and uses MyOldSchoolMiddleware and MyNewAgeMiddleware
